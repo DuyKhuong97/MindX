@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  /* px, inch, cm */
+  /* % , rem */
+  /* 1 rem = 16px */
+}
+
+.item {
+  border: 1px solid black;
+}
+.item-1 {
+  background: #000;
+  color: white;
+}
+.item-2 {
+  background: blueviolet;
+  color: white;
+}
+.item-3 {
+  background: red;
+  color: white;
+}
+.item-4 {
+  background: #52bd38;
+  color: #000;
+}
+.inside-item {
+  background: orange;
+}

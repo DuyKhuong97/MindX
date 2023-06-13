@@ -1,0 +1,71 @@
+body{
+    font-family: 'Roboto' ,sans-serif;
+    max-width: 500px; 
+    color: #6ac0bc;
+    background-color: rgb(213, 208, 208);
+    margin: auto;
+}
+.main-body{
+    background-color: white;
+}
+header{
+    padding-top: 20px;
+    background-color: #e4f8f7;
+    text-align: center;
+    height: 280px
+}
+#header01{
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 30px;
+    font-weight: 700;
+}
+#header02{
+    position: relative;
+    bottom: 40px;
+}
+#header02 span{
+    text-decoration: underline;
+}
+#img1{
+    position: relative;
+    left: 177px;
+    bottom: 169px;
+    scale: 0.5;
+}
+#img2{
+    position: relative;
+    left: -195px;
+    bottom: 51px;
+    scale: 0.5;
+}
+#img3{
+    position: relative;
+    left: -60px;
+    bottom: 176px;
+    scale: 0.4;
+}
+#img4{
+    width: 200px;
+    height: 240px;
+    border-radius: 90px / 100px;
+    overflow: hidden;
+    box-shadow:  0px 20px 10px rgba(85, 78, 78, 0.16);
+    position: relative;
+    margin: auto;
+    scale: 0.4;
+    bottom: 40px;
+}
+#img4 > img{
+    width: 200px;
+    height: 240px;
+    object-fit: cover;
+}
+.avartar-text{
+    text-align: center;
+    position: relative;
+    bottom: 120px;
+    color: black;
+}
+.icon-heart{
+    color: red;
+}
