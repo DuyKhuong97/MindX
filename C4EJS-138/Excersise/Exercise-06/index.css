@@ -1,0 +1,52 @@
+body{
+    font-family: 'Roboto' ,sans-serif;
+    max-width: 800px; 
+    margin: auto;
+    }
+/* .icon-star{
+    font-size: 50px;
+    background: -webkit-linear-gradient(90deg, #efefe9, 0%, #ecfd09, 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+.icon-star{
+	font-size: 24px;
+    background: linear-gradient(0deg, #e8e8c7 0%, #dcde5f 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+.Container{
+    box-shadow:  0px 4px 8px rgba(72, 70, 70, 0.16), 0px 6px 20px rgba(0, 0, 0, 0.23);;
+    margin: 50px;
+    padding: 20px 50px;
+    background-color: #dfeef0;
+    color: #698d8f;
+} 
+.Container li{
+    color: black;
+    font-weight: 600;
+}
+
+.Container--avartar{
+    padding-bottom: 20px;
+    border-bottom: 5px dashed;
+}
+.Container--avartar_img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow:  0px 10px 8px rgba(72, 70, 70, 0.16);
+}
+.Container--avartar_img > img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.Container--Extracurriculars{
+padding-bottom: 10px;
+margin-bottom: 10px;
+border-bottom: 5px dashed;
+}

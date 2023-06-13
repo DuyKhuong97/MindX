@@ -1,0 +1,115 @@
+html {
+  scroll-behavior: smooth;
+}
+.box {
+  width: 350px;
+  height: 200px;
+  background: red;
+
+  /* Padding là khoảng cách từ content tới border(vieefn) */
+  /* Padding 4 chiều: top, right, bottom, left */
+  /* padding: 40px; */
+
+  /* padding-top: 20px;
+  padding-right: 15px;
+  padding-bottom: 16px;
+  padding-left: 8px; */
+
+  /* padding: top right bottom left */
+  /* padding: 30px 15px 30px 15px; */
+
+  /* padding: y x */
+  /* padding: 30px 15px; */
+
+  /* padding: top left-right bottom  */
+  padding: 30px 24px 16px;
+
+  /* border-width: 3px;
+  border-color: black;
+  border-style: solid; */
+  border: 3px black solid;
+
+  /* Margin 4 chiều: top, right, bottom, left */
+  margin: 16px;
+}
+
+.box2 {
+  width: 100px;
+  height: 150px;
+  background: yellow;
+  padding: 24px;
+}
+
+.box3 {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: chocolate;
+}
+
+/* 
+    actualWidth = 2*border + 2*padding + content
+
+                 top (gốc) => xoay theo chiều kim đồng hồ
+
+        left            right
+
+               bottom
+*/
+
+/* Demo position */
+.position-static {
+  position: static;
+}
+.position-fix {
+  margin: 60px 0;
+  width: 200px;
+  height: 150px;
+  background-color: yellowgreen;
+  position: relative;
+  top: 50px;
+  left: 40px;
+}
+
+.parent {
+  background: orchid;
+  width: 600px;
+  height: 450px;
+  position: relative;
+}
+
+.child {
+  background: #000;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s;
+}
+
+.child:hover {
+  width: 200px;
+  height: 200px;
+}
+
+/* Header */
+header {
+  background: #000;
+  margin-bottom: 40px;
+  padding: 24px 16px;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+
+.btn-back {
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: cadetblue;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
